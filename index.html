@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Technical Documentation Page</title>
+  </head>
+  <body>
+    <main id="main-doc">
+      <nav id="navbar">
+        <header>
+          <h1 class="naslov">UX Design Basics</h1>
+          <ul>
+            <li class="nav-link"><a href="#ux-design">UX Design</a></li>
+            <li class="nav-link"><a href="#html">HTML</a></li>
+            <li class="nav-link"><a href="#css">CSS</a></li>
+            <li class="nav-link"><a href="#java-script">Java Script</a></li>
+            <li class="nav-link">
+              <a href="#responsive-web-design"
+                >Responsive Web Design
+              </a>
+            </li>
+          </ul>
+        </header>
+      </nav>
+
+      <main id="main-doc">
+      <section class="ux-design" id="ux-design">
+          <article>
+            <h1>UX Design</h1>
+          <p>
+            As we become more reliant on machines and software in our day-to-day
+            lives, usability and accessibility have become really important.
+            This is where UX and UI come into play. We’ll take a look at how
+            they work and how to use them.
+          </p>
+          <ul>
+            <li>
+              UX stands for User Experience, and, as the name suggests, UX
+              design encompasses the end-user’s interaction with the company,
+              service, or products. It’s worth mentioning here that this process
+              can be applied to just about anything – from street lamps to
+              websites. In theory, it’s a non-digital practice that focuses on
+              the overall feel of a product or service.
+            </li>
+          </ul>
+          <ul>
+            <li>
+              If you’re wondering which one is more important, the fact of the
+              matter is that they’re both as important as each other. Everyone –
+              from developers to users – wants something that looks great and is
+              also eminently usable. This is UI and UX manifest. While there are
+              applications for one and not the other, the best results occur
+              when they’re used together.
+            </li>
+          </ul>
+          <ul>
+            <li>
+              So the benefits of UI and UX for business are numerous – and with
+              the competition in the global market being what it is, getting
+              both right is essential. To use another analogy – UI is the icing
+              on the UX cake. If one part of the whole product doesn’t quite go
+              to plan, the product as a whole could end up being spoiled.
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <section id="html">
+          <article>
+            <h1>HTML</h1>
+          <p>
+            HTML stands for Hypertext Markup Language and it is a widely used
+            programming language used to develop web pages. Through this HTML
+            Tutorial, we’ll understand what HTML means, the features of HTML,
+            the basic tags and elements used, and more.
+          </p>
+          <ul>
+            <li>
+              Create Web site - You can create a website or customize an
+              existing web template if you know HTML well.
+            </li>
+
+            <li>
+              Become a web designer - If you want to start a carrer as a
+              professional web designer, HTML and CSS designing is a must skill.
+            </li>
+
+            <li>
+              Understand web - If you want to optimize your website, to boost
+              its speed and performance, it is good to know HTML to yield best
+              results.
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <section id="css">
+          <article>
+              <h1>CSS</h1>
+              <p>
+            CSS stands for Cascading Style Sheets. It is the language for
+            describing the presentation of Web pages, including colours, layout,
+            and fonts, thus making our web pages presentable to the users. CSS
+            is designed to make style sheets for the web.
+          </p>
+          <code>p { color: red; }</code>
+          <p>
+            CSS is used to define styles for your web pages, including the
+            design, layout and variations in display for different devices and
+            screen sizes.
+          </p>
+          <code>
+            body { background-color: lightblue; } h1 { color: white;
+            text-align:center; } p { font-family: verdana; font-size: 20px; }
+          </code>
+          <code>
+            <h3 style="color: red">Have a great day</h3>
+            <p style="color: green">I did this , I did that</p>
+          </code>
+          <code>
+            #unique { Color: red; }
+            <h1 id="unique">Hi</h1>
+          </code>
+        </article>
+      </section>
+
+      <section id="java-script">
+        <h1>Java Script</h1>
+        <p>
+          JavaScript is a lightweight, cross-platform, and interpreted scripting
+          language. It is well-known for the development of web pages, many
+          non-browser environments also use it. JavaScript can be used for
+          Client-side developments as well as Server-side developments
+        </p>
+        <ul>
+          <li>
+            Client-side: It supplies objects to control a browser and its
+            Document Object Model (DOM). Like if client-side extensions allow an
+            application to place elements on an HTML form and respond to user
+            events such as mouse clicks, form input, and page navigation. Useful
+            libraries for the client-side are AngularJS, ReactJS, VueJS and so
+            many others.
+          </li>
+          <code>
+            <!DOCTYPE html>
+            <html>
+              <body>
+                <h2>What Can JavaScript Do?</h2>
+
+                <p id="demo">JavaScript can change HTML content.</p>
+
+                <button
+                  type="button"
+                  onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'
+                >
+                  Click Me!
+                </button>
+              </body>
+            </html>
+          </code>
+          <li>
+            Server-side: It supplies objects relevant to running JavaScript on a
+            server. Like if the server-side extensions allow an application to
+            communicate with a database, and provide continuity of information
+            from one invocation to another of the application, or perform file
+            manipulations on a server. The useful framework which is the most
+            famous these days is node.js.
+          </li>
+        </ul>
+      </section>
+
+      <section id="responsive-web-design">
+        <h1>Responsive Web Design</h1>
+        <article>
+          <p>
+            Responsive Web Design is about using HTML and CSS to automatically
+            resize, hide, shrink, or enlarge, a website, to make it look good on
+            all devices (desktops, tablets, and phones):
+          </p>
+          <ul>
+            <li>
+              <p>
+                To create a responsive website, add the following <meta /> tag
+                to all your web pages:
+              </p>
+            </li>
+            <ul>
+              <li>
+                If the CSS width property is set to 100%, the image will be
+                responsive and scale up and down:
+              </li>
+              <li>
+                If the max-width property is set to 100%, the image will scale
+                down if it has to, but never scale up to be larger than its
+                original size:
+              </li>
+              <li>
+                The text size can be set with a "vw" unit, which means the
+                "viewport width".
+              </li>
+            </ul>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
